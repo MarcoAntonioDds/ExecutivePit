@@ -1,0 +1,353 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+#fundo {
+    background-color: #36454f;
+    width:100%;
+    height: 28vh;
+    display: flex;
+    align-items: center;
+  }
+
+
+#logo img {
+    position: relative;
+    justify-content: center;
+    top: 2vh;
+    left: 30%;
+    filter: brightness(0%);
+}
+#titulolink {
+
+    width:100%;
+    height: 30vh;
+    
+}
+#titulo {
+    display: table;
+    background: linear-gradient(90deg, #9f8963 7.69%, #605239 221.77%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 10.5vh;
+    position: relative;
+    top: 3vh;
+    left: 10.7vh;
+    bottom: 1vh;
+}
+
+.link {
+    padding-left: 1.5%;
+    position: relative;
+    bottom: 4vh;
+    top: 5vh;
+    left: 4.5%;
+    font-size: 4.5vh;
+    color: white;
+    display: inline-block;
+}
+
+
+.fundo2 {
+    background-color: #36454f;
+    width:100%;
+    height: 105vh;
+    display: flex;
+}
+#inicio{
+    background-color: #36454f;
+    width:100%;
+    height: 145vh;
+    display: flex;
+}
+
+#idtelapreta {
+    position: relative;
+    display: block;
+    top: 55vh;
+    width: 100%;
+    height: 115vh;
+    background-image: linear-gradient(90deg, #000000 15.38%, #1a1a1a 77.74%);
+    margin-top: -35vh;
+    padding-top: 35vh;
+}
+
+.telapreta {
+    position: relative;
+    display: block;
+    top: 35vh;
+    width: 100%;
+    height: 95vh;
+    background-image: linear-gradient(90deg, #000000 15.38%, #1a1a1a 77.74%);
+    margin-top: -35vh;
+    padding-top: 35vh;
+}
+
+#vestuario {
+    position: relative;
+    top: -64.8%;
+}
+
+#placagold {
+    width: 100%;
+    height: 25vh;
+    background-image: linear-gradient(90deg, #000000 2.57%, #D2C38B 48.3%, rgba(36, 36, 36, 0.93) 94.03%);
+    position: relative;
+    top: 3vh;
+}
+
+#frase1 {
+    font-weight: bold;
+    position: relative;
+    top: 5.5vh;
+    text-align: center;
+    font-size: 5.7vh;
+}
+#frase2 {
+    font-weight: bold;
+    position: relative;
+    top: 6.6vh;
+    text-align: center;
+    font-size: 5.7vh;
+}
+
+#sobre {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #000;
+    color: #fff;
+    padding: 5vh;
+}
+
+#titulodosobre {
+    font-size: 6vh;
+    font-weight: bold;
+    text-align: center;
+}
+
+#textodosobre {
+    font-size: 5vh;
+    text-align: center;
+}
+.fundo3 {
+    background-color: #333333;
+    width:100%;
+    height: 105vh;
+    display: flex;
+}
+
+#sustentabilidade {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #000;
+    color: #fff;
+    padding: 5vh;
+}
+#titulodasustentabilidade {
+    position: relative;
+    font-size: 6vh;
+    font-weight: bold;
+    text-align: center;
+    top: 16vh;
+}
+#textodasustentabilidade {
+    font-size: 5vh;
+    text-align: center;
+    position: relative;
+    top: 17vh;
+}
+
+#eventos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #000;
+    color: #fff;
+    padding: 5vh;
+}
+
+#titulodoseventos {
+    position: relative;
+    font-size: 6vh;
+    font-weight: bold;
+    text-align: center;
+}
+#textodoseventos {
+    font-size: 5vh;
+    text-align: center;
+}
+#pontuacao {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #000;
+    color: #fff;
+    padding: 5vh;
+}
+#titulodapontuação {
+    position: relative;
+    font-size: 6vh;
+    font-weight: bold;
+    text-align: center;
+    top: 15vh;
+}
+#textodapontuação {
+    font-size: 4.5vh;
+    text-align: center;
+    position: relative;
+    top: 15vh;
+}
+
+#plano {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #000;
+    color: #fff;
+    padding: 5vh;
+}
+#titulodorubi {
+    position: relative;
+    font-size: 6vh;
+    font-weight: bold;
+    text-align: center;
+}
+#textodorubi {
+    font-size: 5vh;
+    text-align: center;
+    text-align: justify;
+}
+
+#saibamais1 {
+    background-color: #850000;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    transition: background-color 0.3s ease;
+    position: relative;
+    z-index: 1;
+    top: 57vh;
+    right: 92.5vh;
+  }
+  
+  #saibamais1:hover {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+  }
+
+.slider{
+    overflow: hidden;
+
+}
+.slider > .slider-content{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    transition: all 500ms ease;
+
+}
+
+.slider > .slider-content > .slider-item {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.slider > input:nth-child(1):checked ~ .slider-content{
+    transform: translateX(0%);
+}
+
+.slider > input:nth-child(2):checked ~ .slider-content{
+    transform: translateX(-100%);
+}
+.slider > input:nth-child(3):checked ~ .slider-content{
+    transform: translateX(-200%);
+}
+
+#saibamais2 {
+    background-color: #0b8500;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    transition: background-color 0.3s ease;
+    position: relative;
+    z-index: 1;
+    top: 57vh;
+    right: 92.5vh;
+  }
+  
+  #saibamais2:hover {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+  }
+
+  #saibamais3 {
+    background-color: #000d85;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    transition: background-color 0.3s ease;
+    position: relative;
+    z-index: 1;
+    top: 57vh;
+    right: 92.5vh;
+  }
+  
+  #saibamais3:hover {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+  }
+
+  input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid orange;
+    background-color: white;
+    outline: none;
+    margin-right: 10px;
+    position: relative;
+    left: 100vh;
+    top: 92vh;
+    z-index: 1;
+  }
+  
+  input[type="radio"]:checked {
+    background-color: orange;
+    position: relative;
+    left: 100vh;
+    top: 92vh;
+    z-index: 1;
+  }
+  
+
+
