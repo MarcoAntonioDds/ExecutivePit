@@ -15,11 +15,12 @@
 
 
 #logo img {
+    width: 130%;
+    height: 45vh;
     position: relative;
     justify-content: center;
     top: 2vh;
-    left: 30%;
-    filter: brightness(0%);
+    left: -5%;
 }
 #titulolink {
 
@@ -36,7 +37,7 @@
     font-size: 10.5vh;
     position: relative;
     top: 3vh;
-    left: 10.7vh;
+    left: 2.7vh;
     bottom: 1vh;
 }
 
@@ -45,7 +46,7 @@
     position: relative;
     bottom: 4vh;
     top: 5vh;
-    left: 4.5%;
+    left: 1.5%;
     font-size: 4.5vh;
     color: white;
     display: inline-block;
@@ -88,6 +89,8 @@
 }
 
 #vestuario {
+    border-top: 3px solid transparent;
+    border-image: linear-gradient(to right, #36454f, #D2C38B, #36454f) 1;
     position: relative;
     top: -64.8%;
 }
@@ -135,10 +138,11 @@
     text-align: center;
 }
 .fundo3 {
-    background-color: #333333;
+    background-color: #36454f;
     width:100%;
-    height: 105vh;
+    height: 100vh;
     display: flex;
+    position: relative;
 }
 
 #sustentabilidade {
@@ -225,7 +229,7 @@
 }
 
 #saibamais1 {
-    background-color: #850000;
+    background-color: #ff0000;
     color: white;
     padding: 12px 24px;
     text-align: center;
@@ -238,8 +242,8 @@
     transition: background-color 0.3s ease;
     position: relative;
     z-index: 1;
-    top: 57vh;
-    right: 92.5vh;
+    top: 52vh;
+    right: 98.5vh;
   }
   
   #saibamais1:hover {
@@ -277,7 +281,7 @@
 }
 
 #saibamais2 {
-    background-color: #0b8500;
+    background-color: #11cd00;
     color: white;
     padding: 12px 24px;
     text-align: center;
@@ -290,8 +294,8 @@
     transition: background-color 0.3s ease;
     position: relative;
     z-index: 1;
-    top: 57vh;
-    right: 92.5vh;
+    top: 52vh;
+    right: 98.5vh;
   }
   
   #saibamais2:hover {
@@ -301,7 +305,7 @@
   }
 
   #saibamais3 {
-    background-color: #000d85;
+    background-color: #0066f4;
     color: white;
     padding: 12px 24px;
     text-align: center;
@@ -314,8 +318,8 @@
     transition: background-color 0.3s ease;
     position: relative;
     z-index: 1;
-    top: 57vh;
-    right: 92.5vh;
+    top: 52vh;
+    right: 98.5vh;
   }
   
   #saibamais3:hover {
@@ -349,5 +353,16 @@
     z-index: 1;
   }
   
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: transparent;
+}
 
+::-webkit-scrollbar-thumb {
+    background: #7f7550;
+    border-radius: 8px 0px 0px 8px;
+}
 
+::-webkit-scrollbar-track {
+    background-color: #000000;
+}
