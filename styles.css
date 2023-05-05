@@ -23,11 +23,10 @@
     left: -5%;
 }
 #titulolink {
-
     width:100%;
     height: 30vh;
-    
 }
+
 #titulo {
     display: table;
     background: linear-gradient(90deg, #9f8963 7.69%, #605239 221.77%);
@@ -51,6 +50,10 @@
     color: white;
     display: inline-block;
 }
+
+a:hover {
+    color: rgb(10, 10, 10);
+  }
 
 
 .fundo2 {
@@ -108,14 +111,14 @@
     position: relative;
     top: 5.5vh;
     text-align: center;
-    font-size: 5.7vh;
+    font-size: 2.9vw;
 }
 #frase2 {
     font-weight: bold;
     position: relative;
     top: 6.6vh;
     text-align: center;
-    font-size: 5.7vh;
+    font-size: 2.9vw;
 }
 
 #sobre {
@@ -128,13 +131,13 @@
 }
 
 #titulodosobre {
-    font-size: 6vh;
+    font-size: 3vw;
     font-weight: bold;
     text-align: center;
 }
 
 #textodosobre {
-    font-size: 5vh;
+    font-size: 2.7vw;
     text-align: center;
 }
 .fundo3 {
@@ -155,16 +158,16 @@
 }
 #titulodasustentabilidade {
     position: relative;
-    font-size: 6vh;
+    font-size: 3vw;
     font-weight: bold;
     text-align: center;
-    top: 16vh;
+    top: 10vh;
 }
 #textodasustentabilidade {
-    font-size: 5vh;
+    font-size: 2.7vw;
     text-align: center;
     position: relative;
-    top: 17vh;
+    top: 10vh;
 }
 
 #eventos {
@@ -178,12 +181,12 @@
 
 #titulodoseventos {
     position: relative;
-    font-size: 6vh;
+    font-size: 3vw;
     font-weight: bold;
     text-align: center;
 }
 #textodoseventos {
-    font-size: 5vh;
+    font-size: 2.7vw;
     text-align: center;
 }
 #pontuacao {
@@ -196,13 +199,13 @@
 }
 #titulodapontuação {
     position: relative;
-    font-size: 6vh;
+    font-size: 3vw;
     font-weight: bold;
     text-align: center;
     top: 15vh;
 }
 #textodapontuação {
-    font-size: 4.5vh;
+    font-size: 2.3vw;
     text-align: center;
     position: relative;
     top: 15vh;
